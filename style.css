@@ -1,0 +1,22 @@
+body{
+    background-image:url(https://www.shutterstock.com/image-vector/futuristic-scifi-glowing-hud-time-600nw-2178210153.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
